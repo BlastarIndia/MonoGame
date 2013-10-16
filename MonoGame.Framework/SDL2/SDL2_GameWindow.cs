@@ -629,7 +629,7 @@ namespace Microsoft.Xna.Framework
                 SDL.SDL_WINDOWPOS_CENTERED,
                 SDL.SDL_WINDOWPOS_CENTERED,
                 800,
-                600,
+                480,
                 INTERNAL_sdlWindowFlags_Next
             );
             
@@ -673,7 +673,7 @@ namespace Microsoft.Xna.Framework
                 0,
                 PixelInternalFormat.Rgba,
                 800,
-                600,
+                480,
                 0,
                 PixelFormat.Rgba,
                 PixelType.UnsignedByte,
@@ -685,7 +685,7 @@ namespace Microsoft.Xna.Framework
                 0,
                 PixelInternalFormat.DepthComponent16,
                 800,
-                600,
+                480,
                 0,
                 PixelFormat.DepthComponent,
                 PixelType.UnsignedByte,
@@ -707,9 +707,9 @@ namespace Microsoft.Xna.Framework
             );
             GL.BindTexture(TextureTarget.Texture2D, 0);
             INTERNAL_glFramebufferWidth = 800;
-            INTERNAL_glFramebufferHeight = 600;
+            INTERNAL_glFramebufferHeight = 480;
             Mouse.INTERNAL_BackbufferWidth = 800;
-            Mouse.INTERNAL_BackbufferHeight = 600;
+            Mouse.INTERNAL_BackbufferHeight = 480;
             
             INTERNAL_depthFormat = DepthFormat.Depth16;
 
